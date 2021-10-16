@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sistema-configmap
+data:
+  HOST_DB: nome_do_svc:3306
+  USER_DB: user
+  PASS_DB: senha
+  DATABASE_DB: teste
